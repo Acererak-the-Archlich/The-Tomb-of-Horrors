@@ -7,9 +7,12 @@ body {
     
 }
 
+
+
 header {
     padding: 32px;
-    background: rgb(58, 58, 58);
+    background: rgb(25, 25, 25);
+    color: black;
     text-align: center;
     border-radius: 2px;
 }
@@ -70,3 +73,28 @@ input[type="submit"] {
     color: black;
     cursor: pointer;
 }
+
+@media screen and (max-width: 750px) {
+    .header ul {
+        display: inline;
+    
+    }
+
+    .home-content {
+        display: inline;
+    }
+        .card {
+            margin: 0 1rem;
+        }
+    
+        .form-content {
+            margin: 1rem;
+        }
+
+    body {
+        color: green;
+    }
+}
+    
+
+
