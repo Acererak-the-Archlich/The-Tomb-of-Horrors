@@ -45,6 +45,11 @@ header a {
     text-decoration: none;
 }
 
+.card:hover {
+    color: purple;
+}
+
+
 .card-content {
     display: flex;
     padding: 24px;
@@ -92,7 +97,7 @@ input[type="submit"] {
         }
 
     body {
-        color: green;
+        color: darkblue;
     }
 }
     
