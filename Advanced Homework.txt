@@ -1,0 +1,83 @@
+You can either use the python shell or run your scripts in PyCharm to arrive at your answers.
+
+Just enter your answers into this text file and upload it to your Github upon completion.
+
+1. Create a list named even_numbers and set it equal to the even numbers from 0 to 10.
+
+even_numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+arr[1, 3, 5, 7, 9, 11]
+
+2. Given:
+
+    arr = ["Hello", "world", 1, 2, 5.0]
+
+    a. What is the value at the position arr[1]?
+    World
+
+    b. How would you select the 5.0 value?
+    arr[4]
+
+    c. What happens if you execute print(arr)?
+    The array will be printed in an output
+
+    d. How could you print each item in the list one at a time?
+    num = 0
+
+    for i in range(510):
+
+        num += i
+
+    print(num)
+
+3. What are the two available loops in Python and when should you use them? 
+- For loops, which are oft used when one needs to repeat code "n" number of times
+- While loops, which are used to tell the computer to doing something as long as a condition is met
+
+4. What would be the output of this code?
+
+    num = 0
+
+    for i in range(10):
+
+        num += i
+
+    print(num)
+
+    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+5. Given the object:
+
+    student = {"name": "Bob", "age": 20, "major": "computer science"}
+
+    a. What would be the result of student['name']?
+    Bob
+
+    b. How would you select the student's age and assign to a variable named student_age?
+    student['age']
+
+    c. What are the keys in the student object?
+    name, age, major
+
+6. Create your own object {} with the keys of name, age, and hobbies.
+
+Enter in your own information (your name, age, hobbies) in the correct syntax.
+
+self = {"name": "Jack", "age": 17, "hobbies": "D&D"}
+
+7. Why do we use the Flask framework when dealing with web development in Python? 
+It's a lighter weight framework used to make sites quicker
+
+8. When we work with Flask we encounter syntax such as:
+
+    @app.route('/')
+
+    a. What is the name for the '@' symbol in this context? 
+    Decorator
+
+    b. What does this line do in a Flask app?
+    It maps a specific URL with the associated function that is intended performs a task
+
+9. What is the templating engine we use in Flask applications and what does it allow us to do?
+Jinja; Create HTML, XML or other Markup formats
+
